@@ -5,6 +5,7 @@ Po spustení aplikácie budeme mať na výber zopár jednoduchých minihier ako 
             <li>Tic-Tac-Toe</li>
             <li>Flappy bird</li>
             <li>Snake </li>
+            <li>Chess </li>
             <li>Simple clicker</li>
             <li>Math exercises</li>
             <li>Reaction game</li>

@@ -26,15 +26,37 @@ namespace TicTacToe
             button7.Enabled = false;
             button8.Enabled = false;
             button9.Enabled = false;
+
+            
         }
                 
             
         public TicTacToe()
         {
             InitializeComponent();
+            color();
+
+
         }
        
+        void color()
+        {
+            button1.BackColor = Color.FromArgb(64, 61, 57);
+            button2.BackColor = Color.FromArgb(64, 61, 57);
+            button3.BackColor = Color.FromArgb(64, 61, 57);
+            button4.BackColor = Color.FromArgb(64, 61, 57);
+            button5.BackColor = Color.FromArgb(64, 61, 57);
+            button6.BackColor = Color.FromArgb(64, 61, 57);
+            button7.BackColor = Color.FromArgb(64, 61, 57);
+            button8.BackColor = Color.FromArgb(64, 61, 57);
+            button9.BackColor = Color.FromArgb(64, 61, 57);
+            button10.BackColor = Color.FromArgb(64, 61, 57);
+            button11.BackColor = Color.FromArgb(64, 61, 57);
+            button12.BackColor = Color.FromArgb(64, 61, 57);
 
+
+
+        }
         private void TicTacToe_Load(object sender, EventArgs e)
         {
             
@@ -51,7 +73,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player X", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusone);
+                lblPlayerX.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button1.Text == "X" && button4.Text == "X" && button7.Text == "X")
@@ -62,7 +84,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player X", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusone);
+                lblPlayerX.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button1.Text == "X" && button5.Text == "X" && button9.Text == "X")
@@ -73,7 +95,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player X", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusone);
+                lblPlayerX.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button3.Text == "X" && button5.Text == "X" && button7.Text == "X")
@@ -84,7 +106,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player X", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusone);
+                lblPlayerX.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button2.Text == "X" && button5.Text == "X" && button8.Text == "X")
@@ -95,7 +117,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player X", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusone);
+                lblPlayerX.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button4.Text == "X" && button5.Text == "X" && button6.Text == "X")
@@ -106,7 +128,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player X", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusone);
+                lblPlayerX.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button7.Text == "X" && button8.Text == "X" && button9.Text == "X")
@@ -117,7 +139,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player X", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusone);
+                lblPlayerX.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button3.Text == "X" && button6.Text == "X" && button9.Text == "X")
@@ -128,7 +150,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player X", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerX.Text);
-                lblPlayerX.Text = Convert.ToString(plusone);
+                lblPlayerX.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
 
@@ -141,7 +163,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player O", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerO.Text);
-                lblPlayerO.Text = Convert.ToString(plusone);
+                lblPlayerO.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button1.Text == "O" && button4.Text == "O" && button7.Text == "O")
@@ -152,7 +174,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player O", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerO.Text);
-                lblPlayerO.Text = Convert.ToString(plusone);
+                lblPlayerO.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button1.Text == "O" && button5.Text == "O" && button9.Text == "O")
@@ -163,7 +185,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player O", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerO.Text);
-                lblPlayerO.Text = Convert.ToString(plusone);
+                lblPlayerO.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button4.Text == "O" && button5.Text == "O" && button6.Text == "O")
@@ -174,7 +196,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player O", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerO.Text);
-                lblPlayerO.Text = Convert.ToString(plusone);
+                lblPlayerO.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button2.Text == "O" && button5.Text == "O" && button8.Text == "O")
@@ -185,7 +207,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player O", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerO.Text);
-                lblPlayerO.Text = Convert.ToString(plusone);
+                lblPlayerO.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button3.Text == "O" && button5.Text == "O" && button7.Text == "O")
@@ -196,7 +218,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player O", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerO.Text);
-                lblPlayerO.Text = Convert.ToString(plusone);
+                lblPlayerO.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button7.Text == "O" && button8.Text == "O" && button9.Text == "O")
@@ -207,7 +229,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player O", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerO.Text);
-                lblPlayerO.Text = Convert.ToString(plusone);
+                lblPlayerO.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
             if (button3.Text == "O" && button6.Text == "O" && button9.Text == "O")
@@ -218,7 +240,7 @@ namespace TicTacToe
 
                 MessageBox.Show("The winner is Player O", "TicTacToe", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 plusone = int.Parse(lblPlayerO.Text);
-                lblPlayerO.Text = Convert.ToString(plusone);
+                lblPlayerO.Text = Convert.ToString(plusone + 1);
                 Enable_False();
             }
 
@@ -366,6 +388,66 @@ namespace TicTacToe
             }
             score();
             button9.Enabled = false;
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            button1.Enabled = true;
+            button2.Enabled = true;
+            button3.Enabled = true;
+            button4.Enabled = true;
+            button5.Enabled = true;
+            button6.Enabled = true;
+            button7.Enabled = true;
+            button8.Enabled = true;
+            button9.Enabled = true;
+
+            button1.Text = "";
+            button2.Text = "";
+            button3.Text = "";
+            button4.Text = "";
+            button5.Text = "";
+            button6.Text = "";
+            button7.Text = "";
+            button8.Text = "";
+            button9.Text = "";
+
+            lblPlayerO.Text = "0";
+            lblPlayerX.Text = "0";
+
+            color();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            button1.Enabled = true;
+            button2.Enabled = true;
+            button3.Enabled = true;
+            button4.Enabled = true;
+            button5.Enabled = true;
+            button6.Enabled = true;
+            button7.Enabled = true;
+            button8.Enabled = true;
+            button9.Enabled = true;
+
+            button1.Text = "";
+            button2.Text = "";
+            button3.Text = "";
+            button4.Text = "";
+            button5.Text = "";
+            button6.Text = "";
+            button7.Text = "";
+            button8.Text = "";
+            button9.Text = "";
+
+
+
+            color();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }

@@ -148,8 +148,11 @@ namespace TicTacToe
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Default;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 50.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.ForeColor = System.Drawing.Color.Transparent;
             this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 99);
             this.button1.TabIndex = 0;
@@ -165,6 +168,7 @@ namespace TicTacToe
             this.button10.TabIndex = 0;
             this.button10.Text = "NEW GAME";
             this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -175,6 +179,7 @@ namespace TicTacToe
             this.button11.TabIndex = 0;
             this.button11.Text = "EXIT";
             this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -185,6 +190,7 @@ namespace TicTacToe
             this.button12.TabIndex = 0;
             this.button12.Text = "RESET";
             this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // label1
             // 

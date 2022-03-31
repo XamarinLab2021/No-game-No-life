@@ -32,16 +32,16 @@ namespace NoGameNoLifeMenu
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.LogoPanel = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.labelX = new System.Windows.Forms.Label();
+            this.label_ = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label_ = new System.Windows.Forms.Label();
-            this.labelX = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.SidePanel = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.LogoPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -63,6 +63,39 @@ namespace NoGameNoLifeMenu
             this.LogoPanel.TabIndex = 1;
             this.LogoPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.LogoPanel_Paint_1);
             this.LogoPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LogoPanel_MouseMove);
+            // 
+            // panel3
+            // 
+            this.panel3.Location = new System.Drawing.Point(0, 65);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(10, 58);
+            this.panel3.TabIndex = 4;
+            // 
+            // labelX
+            // 
+            this.labelX.AutoSize = true;
+            this.labelX.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelX.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelX.ForeColor = System.Drawing.Color.White;
+            this.labelX.Location = new System.Drawing.Point(912, 12);
+            this.labelX.Name = "labelX";
+            this.labelX.Size = new System.Drawing.Size(26, 25);
+            this.labelX.TabIndex = 3;
+            this.labelX.Text = "X";
+            this.labelX.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label_
+            // 
+            this.label_.AutoSize = true;
+            this.label_.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label_.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_.ForeColor = System.Drawing.Color.White;
+            this.label_.Location = new System.Drawing.Point(883, 12);
+            this.label_.Name = "label_";
+            this.label_.Size = new System.Drawing.Size(23, 25);
+            this.label_.TabIndex = 4;
+            this.label_.Text = "_";
+            this.label_.Click += new System.EventHandler(this.label__Click);
             // 
             // pictureBox1
             // 
@@ -86,32 +119,6 @@ namespace NoGameNoLifeMenu
             this.label1.Text = "NoGameNoLife";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label_
-            // 
-            this.label_.AutoSize = true;
-            this.label_.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label_.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label_.ForeColor = System.Drawing.Color.White;
-            this.label_.Location = new System.Drawing.Point(883, 12);
-            this.label_.Name = "label_";
-            this.label_.Size = new System.Drawing.Size(23, 25);
-            this.label_.TabIndex = 4;
-            this.label_.Text = "_";
-            this.label_.Click += new System.EventHandler(this.label__Click);
-            // 
-            // labelX
-            // 
-            this.labelX.AutoSize = true;
-            this.labelX.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.labelX.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.labelX.ForeColor = System.Drawing.Color.White;
-            this.labelX.Location = new System.Drawing.Point(912, 12);
-            this.labelX.Name = "labelX";
-            this.labelX.Size = new System.Drawing.Size(26, 25);
-            this.labelX.TabIndex = 3;
-            this.labelX.Text = "X";
-            this.labelX.Click += new System.EventHandler(this.label2_Click);
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
@@ -125,13 +132,27 @@ namespace NoGameNoLifeMenu
             this.panel1.Size = new System.Drawing.Size(202, 502);
             this.panel1.TabIndex = 2;
             // 
-            // panel2
+            // SidePanel
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(46)))));
-            this.panel2.Location = new System.Drawing.Point(0, 422);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(202, 80);
-            this.panel2.TabIndex = 3;
+            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(46)))));
+            this.SidePanel.Location = new System.Drawing.Point(0, 0);
+            this.SidePanel.Name = "SidePanel";
+            this.SidePanel.Size = new System.Drawing.Size(10, 60);
+            this.SidePanel.TabIndex = 3;
+            // 
+            // button2
+            // 
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(0, 61);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(202, 60);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "*GameName*";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -147,34 +168,13 @@ namespace NoGameNoLifeMenu
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel3
+            // panel2
             // 
-            this.panel3.Location = new System.Drawing.Point(0, 65);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(10, 58);
-            this.panel3.TabIndex = 4;
-            // 
-            // SidePanel
-            // 
-            this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(46)))));
-            this.SidePanel.Location = new System.Drawing.Point(0, 0);
-            this.SidePanel.Name = "SidePanel";
-            this.SidePanel.Size = new System.Drawing.Size(15, 60);
-            this.SidePanel.TabIndex = 3;
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(0, 61);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(202, 60);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Tic-Tac-Toe";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(46)))));
+            this.panel2.Location = new System.Drawing.Point(0, 422);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(202, 80);
+            this.panel2.TabIndex = 3;
             // 
             // notifyIcon1
             // 

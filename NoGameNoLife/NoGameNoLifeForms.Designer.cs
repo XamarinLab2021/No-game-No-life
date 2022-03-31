@@ -159,6 +159,7 @@ namespace NoGameNoLife
             this.B3.TextMarginLeft = 0;
             this.B3.TextPadding = new System.Windows.Forms.Padding(0);
             this.B3.UseDefaultRadiusAndThickness = true;
+            this.B3.Click += new System.EventHandler(this.B3_Click);
             // 
             // B2
             // 
@@ -251,6 +252,7 @@ namespace NoGameNoLife
             this.B2.TextMarginLeft = 0;
             this.B2.TextPadding = new System.Windows.Forms.Padding(0);
             this.B2.UseDefaultRadiusAndThickness = true;
+            this.B2.Click += new System.EventHandler(this.B2_Click);
             // 
             // B1
             // 
@@ -343,6 +345,7 @@ namespace NoGameNoLife
             this.B1.TextMarginLeft = 0;
             this.B1.TextPadding = new System.Windows.Forms.Padding(0);
             this.B1.UseDefaultRadiusAndThickness = true;
+            this.B1.Click += new System.EventHandler(this.B1_Click);
             // 
             // B0
             // 
@@ -489,6 +492,8 @@ namespace NoGameNoLife
             this.HeaderPanel.Name = "HeaderPanel";
             this.HeaderPanel.Size = new System.Drawing.Size(560, 65);
             this.HeaderPanel.TabIndex = 1;
+            this.HeaderPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.HeaderPanel_Paint);
+            this.HeaderPanel.MouseMove += new System.Windows.Forms.MouseEventHandler(this.HeaderPanel_MouseMove);
             // 
             // label3
             // 

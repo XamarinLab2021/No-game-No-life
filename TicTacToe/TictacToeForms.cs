@@ -28,6 +28,8 @@ namespace TicTacToe
             button9.Enabled = false;
 
             
+
+            
         }
                 
             
@@ -50,9 +52,10 @@ namespace TicTacToe
             button7.BackColor = Color.FromArgb(64, 61, 57);
             button8.BackColor = Color.FromArgb(64, 61, 57);
             button9.BackColor = Color.FromArgb(64, 61, 57);
-            button10.BackColor = Color.FromArgb(64, 61, 57);
-            button11.BackColor = Color.FromArgb(64, 61, 57);
+            button10.BackColor = Color.FromArgb(64, 61, 57);           
             button12.BackColor = Color.FromArgb(64, 61, 57);
+
+            
 
 
 
@@ -448,6 +451,21 @@ namespace TicTacToe
         private void button11_Click(object sender, EventArgs e)
         {
             Environment.Exit(0);
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

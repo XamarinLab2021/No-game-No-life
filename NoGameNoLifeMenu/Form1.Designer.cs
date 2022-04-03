@@ -42,6 +42,8 @@ namespace NoGameNoLifeMenu
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.tictactoe1 = new NoGameNoLifeMenu.tictactoe();
+            this.empty1 = new NoGameNoLifeMenu.empty();
             this.LogoPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -171,12 +173,30 @@ namespace NoGameNoLifeMenu
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
             // 
+            // tictactoe1
+            // 
+            this.tictactoe1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
+            this.tictactoe1.Location = new System.Drawing.Point(251, 105);
+            this.tictactoe1.Name = "tictactoe1";
+            this.tictactoe1.Size = new System.Drawing.Size(625, 391);
+            this.tictactoe1.TabIndex = 3;
+            // 
+            // empty1
+            // 
+            this.empty1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
+            this.empty1.Location = new System.Drawing.Point(251, 105);
+            this.empty1.Name = "empty1";
+            this.empty1.Size = new System.Drawing.Size(625, 392);
+            this.empty1.TabIndex = 4;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
             this.ClientSize = new System.Drawing.Size(950, 567);
+            this.Controls.Add(this.empty1);
+            this.Controls.Add(this.tictactoe1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.LogoPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -203,6 +223,8 @@ namespace NoGameNoLifeMenu
         private System.Windows.Forms.Panel SidePanel;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private tictactoe tictactoe1;
+        private empty empty1;
     }
 }
 

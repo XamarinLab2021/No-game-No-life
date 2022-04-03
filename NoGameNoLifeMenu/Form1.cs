@@ -18,6 +18,10 @@ namespace NoGameNoLifeMenu
             InitializeComponent();
             SidePanel.Height = button1.Height;
             SidePanel.Top = button1.Top;
+            button1.ForeColor = Color.FromArgb(235, 94, 40);
+            button2.ForeColor = Color.White;
+            tictactoe1.BringToFront();
+
 
         }
 
@@ -80,6 +84,7 @@ namespace NoGameNoLifeMenu
             SidePanel.Top = button1.Top;
             button1.ForeColor = Color.FromArgb(235, 94, 40);
             button2.ForeColor = Color.White;
+            tictactoe1.BringToFront();
 
         }
 
@@ -89,6 +94,7 @@ namespace NoGameNoLifeMenu
             SidePanel.Top = button2.Top;
             button2.ForeColor = Color.FromArgb(235, 94, 40);
             button1.ForeColor = Color.White;
+            empty1.BringToFront();
         }
     }
 }

@@ -96,5 +96,10 @@ namespace NoGameNoLifeMenu
             button1.ForeColor = Color.White;
             empty1.BringToFront();
         }
+
+        private void empty1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -150,7 +150,7 @@ namespace NoGameNoLifeMenu
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(202, 60);
             this.button2.TabIndex = 4;
-            this.button2.Text = "*GameName*";
+            this.button2.Text = "Clicker";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
@@ -188,6 +188,7 @@ namespace NoGameNoLifeMenu
             this.empty1.Name = "empty1";
             this.empty1.Size = new System.Drawing.Size(625, 392);
             this.empty1.TabIndex = 4;
+            this.empty1.Load += new System.EventHandler(this.empty1_Load);
             // 
             // Form1
             // 

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClickerGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClickerGame.Designer.cs">
+      <DependentUpon>ClickerGame.cs</DependentUpon>
+    </Compile>
     <Compile Include="empty.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <Compile Include="tictactoe.Designer.cs">
       <DependentUpon>tictactoe.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ClickerGame.resx">
+      <DependentUpon>ClickerGame.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="empty.resx">
       <DependentUpon>empty.cs</DependentUpon>
     </EmbeddedResource>

@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace NoGameNoLifeMenu
 {
-    public partial class empty : UserControl
+    public partial class ClickerGame : Form
     {
-        public empty()
+        public ClickerGame()
         {
             InitializeComponent();
-        }
-
-        private void Playbutton_Click(object sender, EventArgs e)
-        {
-            ClickerGame clickerGame = new ClickerGame();
-            clickerGame.ShowDialog();
         }
     }
 }

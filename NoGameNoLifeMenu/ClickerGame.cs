@@ -17,9 +17,12 @@ namespace NoGameNoLifeMenu
         {
             InitializeComponent();
             upgradetext();
+            
 
 
         }
+
+        
 
         void upgradetext()
         {
@@ -172,6 +175,11 @@ namespace NoGameNoLifeMenu
         {
             iron += 1 * drilllvl;
             textBox_zelezo.Text = iron.ToString();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -146,6 +146,7 @@ namespace NoGameNoLifeMenu
             // 
             // zelezo
             // 
+            this.zelezo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.zelezo.Image = global::NoGameNoLifeMenu.Properties.Resources.SeekPng_com_rock_on_png_3967087;
             this.zelezo.Location = new System.Drawing.Point(12, 517);
             this.zelezo.Name = "zelezo";
@@ -157,6 +158,7 @@ namespace NoGameNoLifeMenu
             // 
             // pictureBox8
             // 
+            this.pictureBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox8.Image = global::NoGameNoLifeMenu.Properties.Resources._15e030648420016;
             this.pictureBox8.Location = new System.Drawing.Point(550, 401);
             this.pictureBox8.Name = "pictureBox8";
@@ -168,6 +170,7 @@ namespace NoGameNoLifeMenu
             // 
             // pictureBox7
             // 
+            this.pictureBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox7.Image = global::NoGameNoLifeMenu.Properties.Resources._15e030648420016;
             this.pictureBox7.Location = new System.Drawing.Point(550, 265);
             this.pictureBox7.Name = "pictureBox7";
@@ -179,6 +182,7 @@ namespace NoGameNoLifeMenu
             // 
             // kamen2
             // 
+            this.kamen2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.kamen2.Image = global::NoGameNoLifeMenu.Properties.Resources.pngegg;
             this.kamen2.Location = new System.Drawing.Point(206, 358);
             this.kamen2.Name = "kamen2";
@@ -190,6 +194,7 @@ namespace NoGameNoLifeMenu
             // 
             // kamen1
             // 
+            this.kamen1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.kamen1.Image = global::NoGameNoLifeMenu.Properties.Resources.pngegg;
             this.kamen1.Location = new System.Drawing.Point(390, 499);
             this.kamen1.Name = "kamen1";
@@ -201,6 +206,7 @@ namespace NoGameNoLifeMenu
             // 
             // Strom1
             // 
+            this.Strom1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Strom1.Image = global::NoGameNoLifeMenu.Properties.Resources.PikPng_com_pixel_png_1744665;
             this.Strom1.Location = new System.Drawing.Point(378, 144);
             this.Strom1.Name = "Strom1";
@@ -212,6 +218,7 @@ namespace NoGameNoLifeMenu
             // 
             // Strom2
             // 
+            this.Strom2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Strom2.Image = global::NoGameNoLifeMenu.Properties.Resources.PikPng_com_pixel_png_1744665;
             this.Strom2.Location = new System.Drawing.Point(31, 179);
             this.Strom2.Name = "Strom2";
@@ -223,6 +230,7 @@ namespace NoGameNoLifeMenu
             // 
             // pictureBox12
             // 
+            this.pictureBox12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox12.Image = global::NoGameNoLifeMenu.Properties.Resources._15e030648420016;
             this.pictureBox12.Location = new System.Drawing.Point(187, 48);
             this.pictureBox12.Name = "pictureBox12";
@@ -234,6 +242,7 @@ namespace NoGameNoLifeMenu
             // 
             // pictureBox11
             // 
+            this.pictureBox11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox11.Image = global::NoGameNoLifeMenu.Properties.Resources._15e030648420016;
             this.pictureBox11.Location = new System.Drawing.Point(211, 554);
             this.pictureBox11.Name = "pictureBox11";
@@ -245,6 +254,7 @@ namespace NoGameNoLifeMenu
             // 
             // pictureBox10
             // 
+            this.pictureBox10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox10.Image = global::NoGameNoLifeMenu.Properties.Resources._15e030648420016;
             this.pictureBox10.Location = new System.Drawing.Point(70, 445);
             this.pictureBox10.Name = "pictureBox10";
@@ -256,6 +266,7 @@ namespace NoGameNoLifeMenu
             // 
             // pictureBox6
             // 
+            this.pictureBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox6.Image = global::NoGameNoLifeMenu.Properties.Resources._15e030648420016;
             this.pictureBox6.Location = new System.Drawing.Point(390, 432);
             this.pictureBox6.Name = "pictureBox6";
@@ -267,6 +278,7 @@ namespace NoGameNoLifeMenu
             // 
             // pictureBox5
             // 
+            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox5.Image = global::NoGameNoLifeMenu.Properties.Resources._15e030648420016;
             this.pictureBox5.Location = new System.Drawing.Point(178, 229);
             this.pictureBox5.Name = "pictureBox5";
@@ -278,6 +290,7 @@ namespace NoGameNoLifeMenu
             // 
             // pictureBox4
             // 
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox4.Image = global::NoGameNoLifeMenu.Properties.Resources._15e030648420016;
             this.pictureBox4.Location = new System.Drawing.Point(540, 123);
             this.pictureBox4.Name = "pictureBox4";
@@ -289,6 +302,7 @@ namespace NoGameNoLifeMenu
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox3.Image = global::NoGameNoLifeMenu.Properties.Resources._15e030648420016;
             this.pictureBox3.Location = new System.Drawing.Point(413, 58);
             this.pictureBox3.Name = "pictureBox3";
@@ -300,6 +314,7 @@ namespace NoGameNoLifeMenu
             // 
             // pictureBox2
             // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox2.Image = global::NoGameNoLifeMenu.Properties.Resources._15e030648420016;
             this.pictureBox2.Location = new System.Drawing.Point(262, 144);
             this.pictureBox2.Name = "pictureBox2";
@@ -311,6 +326,7 @@ namespace NoGameNoLifeMenu
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::NoGameNoLifeMenu.Properties.Resources._15e030648420016;
             this.pictureBox1.Location = new System.Drawing.Point(80, 123);
             this.pictureBox1.Name = "pictureBox1";
@@ -328,9 +344,10 @@ namespace NoGameNoLifeMenu
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(823, 52);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 25);
+            this.label6.Size = new System.Drawing.Size(81, 25);
             this.label6.TabIndex = 27;
-            this.label6.Text = "Tráva :";
+            this.label6.Text = "Grass :";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
@@ -340,9 +357,9 @@ namespace NoGameNoLifeMenu
             this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(823, 102);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(84, 25);
+            this.label7.Size = new System.Drawing.Size(83, 25);
             this.label7.TabIndex = 28;
-            this.label7.Text = "Drevo :";
+            this.label7.Text = "Wood :";
             // 
             // label8
             // 
@@ -352,9 +369,9 @@ namespace NoGameNoLifeMenu
             this.label8.ForeColor = System.Drawing.Color.White;
             this.label8.Location = new System.Drawing.Point(823, 148);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(97, 25);
+            this.label8.Size = new System.Drawing.Size(80, 25);
             this.label8.TabIndex = 29;
-            this.label8.Text = "Kameň :";
+            this.label8.Text = "Stone :";
             // 
             // label9
             // 
@@ -364,9 +381,9 @@ namespace NoGameNoLifeMenu
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(823, 196);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(89, 25);
+            this.label9.Size = new System.Drawing.Size(63, 25);
             this.label9.TabIndex = 30;
-            this.label9.Text = "Železo :";
+            this.label9.Text = "Iron :";
             // 
             // textBox_trava
             // 
@@ -454,42 +471,54 @@ namespace NoGameNoLifeMenu
             // 
             // textBox_gloves
             // 
+            this.textBox_gloves.BackColor = System.Drawing.Color.ForestGreen;
+            this.textBox_gloves.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_gloves.Enabled = false;
             this.textBox_gloves.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBox_gloves.ForeColor = System.Drawing.Color.Black;
             this.textBox_gloves.Location = new System.Drawing.Point(935, 486);
             this.textBox_gloves.Name = "textBox_gloves";
             this.textBox_gloves.ReadOnly = true;
-            this.textBox_gloves.Size = new System.Drawing.Size(100, 33);
+            this.textBox_gloves.Size = new System.Drawing.Size(100, 26);
             this.textBox_gloves.TabIndex = 39;
             // 
             // textBox_axe
             // 
+            this.textBox_axe.BackColor = System.Drawing.Color.ForestGreen;
+            this.textBox_axe.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_axe.Enabled = false;
             this.textBox_axe.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBox_axe.ForeColor = System.Drawing.Color.Black;
             this.textBox_axe.Location = new System.Drawing.Point(935, 526);
             this.textBox_axe.Name = "textBox_axe";
             this.textBox_axe.ReadOnly = true;
-            this.textBox_axe.Size = new System.Drawing.Size(100, 33);
+            this.textBox_axe.Size = new System.Drawing.Size(100, 26);
             this.textBox_axe.TabIndex = 40;
             // 
             // textBox_pick
             // 
+            this.textBox_pick.BackColor = System.Drawing.Color.ForestGreen;
+            this.textBox_pick.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_pick.Enabled = false;
             this.textBox_pick.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBox_pick.ForeColor = System.Drawing.Color.Black;
             this.textBox_pick.Location = new System.Drawing.Point(935, 566);
             this.textBox_pick.Name = "textBox_pick";
             this.textBox_pick.ReadOnly = true;
-            this.textBox_pick.Size = new System.Drawing.Size(100, 33);
+            this.textBox_pick.Size = new System.Drawing.Size(100, 26);
             this.textBox_pick.TabIndex = 41;
             // 
             // textBox_drill
             // 
+            this.textBox_drill.BackColor = System.Drawing.Color.ForestGreen;
+            this.textBox_drill.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_drill.Enabled = false;
             this.textBox_drill.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBox_drill.ForeColor = System.Drawing.Color.Black;
             this.textBox_drill.Location = new System.Drawing.Point(937, 608);
             this.textBox_drill.Name = "textBox_drill";
             this.textBox_drill.ReadOnly = true;
-            this.textBox_drill.Size = new System.Drawing.Size(100, 33);
+            this.textBox_drill.Size = new System.Drawing.Size(100, 26);
             this.textBox_drill.TabIndex = 42;
             // 
             // ClickerGame

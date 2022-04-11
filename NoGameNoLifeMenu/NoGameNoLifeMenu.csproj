@@ -122,5 +122,8 @@
   <ItemGroup>
     <None Include="Resources\SeekPng.com_rock-on-png_3967087.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="colorpalettes.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

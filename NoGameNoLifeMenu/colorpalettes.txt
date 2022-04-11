@@ -1,0 +1,3 @@
+﻿235, 94, 40 = orange
+49; 48; 46 = dark grey
+64; 61; 57 = light grey

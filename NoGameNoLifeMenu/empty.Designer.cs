@@ -34,7 +34,7 @@ namespace NoGameNoLifeMenu
             // 
             // Playbutton
             // 
-            this.Playbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(94)))), ((int)(((byte)(40)))));
+            this.Playbutton.BackColor = System.Drawing.Color.ForestGreen;
             this.Playbutton.FlatAppearance.BorderSize = 0;
             this.Playbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Playbutton.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));

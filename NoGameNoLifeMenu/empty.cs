@@ -17,7 +17,7 @@ namespace NoGameNoLifeMenu
             InitializeComponent();
         }
 
-        private void Playbutton_Click(object sender, EventArgs e)
+        public void Playbutton_Click(object sender, EventArgs e)
         {
             ClickerGame clickerGame = new ClickerGame();
             clickerGame.ShowDialog();

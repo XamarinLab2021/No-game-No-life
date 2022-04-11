@@ -411,6 +411,7 @@ namespace NoGameNoLifeMenu
             this.textBox_kamen.ReadOnly = true;
             this.textBox_kamen.Size = new System.Drawing.Size(100, 20);
             this.textBox_kamen.TabIndex = 33;
+            this.textBox_kamen.TextChanged += new System.EventHandler(this.textBox_kamen_TextChanged);
             // 
             // textBox_zelezo
             // 

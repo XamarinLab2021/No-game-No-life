@@ -181,5 +181,10 @@ namespace NoGameNoLifeMenu
         {
 
         }
+
+        private void textBox_kamen_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

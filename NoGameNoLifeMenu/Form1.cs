@@ -85,6 +85,7 @@ namespace NoGameNoLifeMenu
             button1.ForeColor = Color.FromArgb(235, 94, 40);
             button2.ForeColor = Color.White;
             tictactoe1.BringToFront();
+            ColorchangeTikTacToe();
 
         }
 
@@ -95,11 +96,26 @@ namespace NoGameNoLifeMenu
             button2.ForeColor = Color.FromArgb(235, 94, 40);
             button1.ForeColor = Color.White;
             empty1.BringToFront();
+            Colorchangeclicker();
         }
 
         private void empty1_Load(object sender, EventArgs e)
         {
 
         }
+
+        void Colorchangeclicker()
+        {
+            LogoPanel.BackColor = Color.ForestGreen;
+            button2.ForeColor = Color.ForestGreen;
+            SidePanel.BackColor = Color.ForestGreen;
+        }
+        void ColorchangeTikTacToe()
+        {
+            LogoPanel.BackColor = Color.FromArgb(235, 94, 40);
+            button1.ForeColor = Color.FromArgb(235, 94, 40);
+            SidePanel.BackColor = Color.FromArgb(235, 94, 40);
+        }
+        
     }
 }

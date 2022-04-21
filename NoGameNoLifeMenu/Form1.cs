@@ -137,5 +137,15 @@ namespace NoGameNoLifeMenu
 
             ColorchangeNEWGAME();
         }
+
+        private void empty21_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void empty22_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

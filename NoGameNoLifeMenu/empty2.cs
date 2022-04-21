@@ -16,5 +16,11 @@ namespace NoGameNoLifeMenu
         {
             InitializeComponent();
         }
+
+        private void Playbutton_Click(object sender, EventArgs e)
+        {
+            LogicGame clickerGame = new LogicGame();
+            clickerGame.ShowDialog();
+        }
     }
 }

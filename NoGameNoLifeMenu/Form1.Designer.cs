@@ -46,6 +46,8 @@ namespace NoGameNoLifeMenu
             this.empty21 = new NoGameNoLifeMenu.empty2();
             this.empty1 = new NoGameNoLifeMenu.empty();
             this.tictactoe1 = new NoGameNoLifeMenu.tictactoe();
+            this.tictactoe2 = new NoGameNoLifeMenu.tictactoe();
+            this.empty22 = new NoGameNoLifeMenu.empty2();
             this.LogoPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -181,7 +183,7 @@ namespace NoGameNoLifeMenu
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(202, 60);
             this.button3.TabIndex = 5;
-            this.button3.Text = "NEWGAME";
+            this.button3.Text = "Shuffle Game";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -197,6 +199,7 @@ namespace NoGameNoLifeMenu
             this.empty21.Name = "empty21";
             this.empty21.Size = new System.Drawing.Size(625, 392);
             this.empty21.TabIndex = 5;
+            this.empty21.Load += new System.EventHandler(this.empty21_Load);
             // 
             // empty1
             // 
@@ -215,12 +218,31 @@ namespace NoGameNoLifeMenu
             this.tictactoe1.Size = new System.Drawing.Size(625, 391);
             this.tictactoe1.TabIndex = 3;
             // 
+            // tictactoe2
+            // 
+            this.tictactoe2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
+            this.tictactoe2.Location = new System.Drawing.Point(253, 113);
+            this.tictactoe2.Name = "tictactoe2";
+            this.tictactoe2.Size = new System.Drawing.Size(625, 391);
+            this.tictactoe2.TabIndex = 6;
+            // 
+            // empty22
+            // 
+            this.empty22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
+            this.empty22.Location = new System.Drawing.Point(261, 121);
+            this.empty22.Name = "empty22";
+            this.empty22.Size = new System.Drawing.Size(625, 392);
+            this.empty22.TabIndex = 7;
+            this.empty22.Load += new System.EventHandler(this.empty22_Load);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
             this.ClientSize = new System.Drawing.Size(950, 567);
+            this.Controls.Add(this.empty22);
+            this.Controls.Add(this.tictactoe2);
             this.Controls.Add(this.empty21);
             this.Controls.Add(this.empty1);
             this.Controls.Add(this.tictactoe1);
@@ -254,6 +276,8 @@ namespace NoGameNoLifeMenu
         private empty empty1;
         private System.Windows.Forms.Button button3;
         private empty2 empty21;
+        private tictactoe tictactoe2;
+        private empty2 empty22;
     }
 }
 

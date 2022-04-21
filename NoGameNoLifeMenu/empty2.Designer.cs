@@ -45,6 +45,7 @@ namespace NoGameNoLifeMenu
             this.Playbutton.TabIndex = 1;
             this.Playbutton.Text = "Play";
             this.Playbutton.UseVisualStyleBackColor = false;
+            this.Playbutton.Click += new System.EventHandler(this.Playbutton_Click);
             // 
             // empty2
             // 

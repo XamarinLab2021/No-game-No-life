@@ -52,7 +52,7 @@ namespace NoGameNoLifeMenu
 
         private void labelX_Click(object sender, EventArgs e)
         {
-            Environment.Exit(0);
+            this.Close();
         }
 
         private void label__Click(object sender, EventArgs e)
@@ -183,6 +183,11 @@ namespace NoGameNoLifeMenu
         }
 
         private void textBox_kamen_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -43,11 +43,13 @@ namespace NoGameNoLifeMenu
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.empty22 = new NoGameNoLifeMenu.empty2();
+            this.tictactoe2 = new NoGameNoLifeMenu.tictactoe();
             this.empty21 = new NoGameNoLifeMenu.empty2();
             this.empty1 = new NoGameNoLifeMenu.empty();
             this.tictactoe1 = new NoGameNoLifeMenu.tictactoe();
-            this.tictactoe2 = new NoGameNoLifeMenu.tictactoe();
-            this.empty22 = new NoGameNoLifeMenu.empty2();
             this.LogoPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -127,6 +129,8 @@ namespace NoGameNoLifeMenu
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(48)))), ((int)(((byte)(46)))));
+            this.panel1.Controls.Add(this.button5);
+            this.panel1.Controls.Add(this.button4);
             this.panel1.Controls.Add(this.SidePanel);
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
@@ -192,6 +196,51 @@ namespace NoGameNoLifeMenu
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
             // 
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(0, 187);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(202, 60);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "NEWGAME1";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(0, 253);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(202, 60);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "NEWGAME2";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // empty22
+            // 
+            this.empty22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
+            this.empty22.Location = new System.Drawing.Point(261, 121);
+            this.empty22.Name = "empty22";
+            this.empty22.Size = new System.Drawing.Size(625, 392);
+            this.empty22.TabIndex = 7;
+            this.empty22.Load += new System.EventHandler(this.empty22_Load);
+            // 
+            // tictactoe2
+            // 
+            this.tictactoe2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
+            this.tictactoe2.Location = new System.Drawing.Point(253, 113);
+            this.tictactoe2.Name = "tictactoe2";
+            this.tictactoe2.Size = new System.Drawing.Size(625, 391);
+            this.tictactoe2.TabIndex = 6;
+            // 
             // empty21
             // 
             this.empty21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
@@ -217,23 +266,6 @@ namespace NoGameNoLifeMenu
             this.tictactoe1.Name = "tictactoe1";
             this.tictactoe1.Size = new System.Drawing.Size(625, 391);
             this.tictactoe1.TabIndex = 3;
-            // 
-            // tictactoe2
-            // 
-            this.tictactoe2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
-            this.tictactoe2.Location = new System.Drawing.Point(253, 113);
-            this.tictactoe2.Name = "tictactoe2";
-            this.tictactoe2.Size = new System.Drawing.Size(625, 391);
-            this.tictactoe2.TabIndex = 6;
-            // 
-            // empty22
-            // 
-            this.empty22.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
-            this.empty22.Location = new System.Drawing.Point(261, 121);
-            this.empty22.Name = "empty22";
-            this.empty22.Size = new System.Drawing.Size(625, 392);
-            this.empty22.TabIndex = 7;
-            this.empty22.Load += new System.EventHandler(this.empty22_Load);
             // 
             // Form1
             // 
@@ -278,6 +310,8 @@ namespace NoGameNoLifeMenu
         private empty2 empty21;
         private tictactoe tictactoe2;
         private empty2 empty22;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
     }
 }
 

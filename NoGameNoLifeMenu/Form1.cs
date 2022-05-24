@@ -84,6 +84,8 @@ namespace NoGameNoLifeMenu
             SidePanel.Top = button1.Top;
             button1.ForeColor = Color.FromArgb(235, 94, 40);
             button2.ForeColor = Color.White;
+            button5.ForeColor = Color.White;
+            button4.ForeColor = Color.White;
             tictactoe1.BringToFront();
             ColorchangeTicTacToe();
             button3.ForeColor = Color.White;
@@ -96,6 +98,8 @@ namespace NoGameNoLifeMenu
             SidePanel.Top = button2.Top;
             button2.ForeColor = Color.FromArgb(235, 94, 40);
             button1.ForeColor = Color.White;
+            button5.ForeColor = Color.White;
+            button4.ForeColor = Color.White;
             empty1.BringToFront();
             ColorchangeClicker();
             button3.ForeColor = Color.White;
@@ -119,12 +123,27 @@ namespace NoGameNoLifeMenu
             SidePanel.BackColor = Color.FromArgb(235, 94, 40);
         }
 
-        void ColorchangeNEWGAME()
+        void ColorchangeLOGICGAME()
         {
             LogoPanel.BackColor = Color.FromArgb(63, 83, 164);
             button3.ForeColor = Color.FromArgb(63, 83, 164);
             SidePanel.BackColor = Color.FromArgb(63, 83, 164);
         }
+
+        void ColorchangeNEWGAME1()
+        {
+            LogoPanel.BackColor = Color.FromArgb(100, 0, 100);
+            button4.ForeColor = Color.FromArgb(100, 0, 100);
+            SidePanel.BackColor = Color.FromArgb(100, 0, 100);
+        }
+
+        void ColorchangeNEWGAME2()
+        {
+            LogoPanel.BackColor = Color.Crimson;
+            button5.ForeColor = Color.Crimson;
+            SidePanel.BackColor = Color.Crimson;
+        }
+
 
         private void button3_Click(object sender, EventArgs e)
         {
@@ -133,9 +152,11 @@ namespace NoGameNoLifeMenu
             button3.ForeColor = Color.FromArgb(63, 83, 164);
             button1.ForeColor = Color.White;
             button2.ForeColor = Color.White;
+            button5.ForeColor = Color.White;
+            button4.ForeColor = Color.White;
             empty21.BringToFront();
 
-            ColorchangeNEWGAME();
+            ColorchangeLOGICGAME();
         }
 
         private void empty21_Load(object sender, EventArgs e)
@@ -146,6 +167,32 @@ namespace NoGameNoLifeMenu
         private void empty22_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button4.Height;
+            SidePanel.Top = button4.Top;
+            button4.ForeColor = Color.FromArgb(100, 0, 100);
+            button1.ForeColor = Color.White;
+            button2.ForeColor = Color.White;
+            button5.ForeColor = Color.White;
+            button3.ForeColor = Color.White;
+            ColorchangeNEWGAME1();
+
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            SidePanel.Height = button5.Height;
+            SidePanel.Top = button5.Top;
+            button5.ForeColor = Color.Crimson;
+            button1.ForeColor = Color.White;
+            button2.ForeColor = Color.White;
+            button4.ForeColor = Color.White;
+            button3.ForeColor = Color.White;
+            ColorchangeNEWGAME2();
         }
     }
 }

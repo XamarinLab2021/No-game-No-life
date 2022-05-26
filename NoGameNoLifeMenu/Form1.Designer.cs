@@ -38,18 +38,19 @@ namespace NoGameNoLifeMenu
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.SidePanel = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
             this.empty22 = new NoGameNoLifeMenu.empty2();
             this.tictactoe2 = new NoGameNoLifeMenu.tictactoe();
             this.empty21 = new NoGameNoLifeMenu.empty2();
             this.empty1 = new NoGameNoLifeMenu.empty();
             this.tictactoe1 = new NoGameNoLifeMenu.tictactoe();
+            this.rockPaperScissors1 = new NoGameNoLifeMenu.Minigames.RockPaperScissors();
             this.LogoPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -82,11 +83,11 @@ namespace NoGameNoLifeMenu
             // 
             this.labelX.AutoSize = true;
             this.labelX.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.labelX.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.labelX.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.labelX.ForeColor = System.Drawing.Color.White;
             this.labelX.Location = new System.Drawing.Point(912, 12);
             this.labelX.Name = "labelX";
-            this.labelX.Size = new System.Drawing.Size(26, 25);
+            this.labelX.Size = new System.Drawing.Size(27, 25);
             this.labelX.TabIndex = 3;
             this.labelX.Text = "X";
             this.labelX.Click += new System.EventHandler(this.label2_Click);
@@ -95,11 +96,11 @@ namespace NoGameNoLifeMenu
             // 
             this.label_.AutoSize = true;
             this.label_.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label_.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label_.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label_.ForeColor = System.Drawing.Color.White;
             this.label_.Location = new System.Drawing.Point(883, 12);
             this.label_.Name = "label_";
-            this.label_.Size = new System.Drawing.Size(23, 25);
+            this.label_.Size = new System.Drawing.Size(25, 25);
             this.label_.TabIndex = 4;
             this.label_.Text = "_";
             this.label_.Click += new System.EventHandler(this.label__Click);
@@ -117,11 +118,11 @@ namespace NoGameNoLifeMenu
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(60, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 25);
+            this.label1.Size = new System.Drawing.Size(170, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "NoGameNoLife";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -141,6 +142,34 @@ namespace NoGameNoLifeMenu
             this.panel1.Size = new System.Drawing.Size(202, 502);
             this.panel1.TabIndex = 2;
             // 
+            // button5
+            // 
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(0, 253);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(202, 60);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "NEWGAME2";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(0, 187);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(202, 60);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "Rock Paper Scissors";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // SidePanel
             // 
             this.SidePanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
@@ -153,7 +182,7 @@ namespace NoGameNoLifeMenu
             // 
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(0, 61);
             this.button2.Name = "button2";
@@ -167,7 +196,7 @@ namespace NoGameNoLifeMenu
             // 
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(0, 0);
             this.button1.Name = "button1";
@@ -181,7 +210,7 @@ namespace NoGameNoLifeMenu
             // 
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Location = new System.Drawing.Point(0, 121);
             this.button3.Name = "button3";
@@ -195,34 +224,6 @@ namespace NoGameNoLifeMenu
             // 
             this.notifyIcon1.Text = "notifyIcon1";
             this.notifyIcon1.Visible = true;
-            // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(0, 187);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(202, 60);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "NEWGAME1";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(0, 253);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(202, 60);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "NEWGAME2";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // empty22
             // 
@@ -267,12 +268,21 @@ namespace NoGameNoLifeMenu
             this.tictactoe1.Size = new System.Drawing.Size(625, 391);
             this.tictactoe1.TabIndex = 3;
             // 
+            // rockPaperScissors1
+            // 
+            this.rockPaperScissors1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
+            this.rockPaperScissors1.Location = new System.Drawing.Point(261, 93);
+            this.rockPaperScissors1.Name = "rockPaperScissors1";
+            this.rockPaperScissors1.Size = new System.Drawing.Size(604, 391);
+            this.rockPaperScissors1.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(61)))), ((int)(((byte)(57)))));
             this.ClientSize = new System.Drawing.Size(950, 567);
+            this.Controls.Add(this.rockPaperScissors1);
             this.Controls.Add(this.empty22);
             this.Controls.Add(this.tictactoe2);
             this.Controls.Add(this.empty21);
@@ -312,6 +322,7 @@ namespace NoGameNoLifeMenu
         private empty2 empty22;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
+        private Minigames.RockPaperScissors rockPaperScissors1;
     }
 }
 

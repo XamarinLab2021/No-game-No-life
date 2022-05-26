@@ -179,6 +179,7 @@ namespace NoGameNoLifeMenu
             button5.ForeColor = Color.White;
             button3.ForeColor = Color.White;
             ColorchangeNEWGAME1();
+            rockPaperScissors1.BringToFront();
 
 
         }

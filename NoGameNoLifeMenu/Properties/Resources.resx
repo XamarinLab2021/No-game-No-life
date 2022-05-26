@@ -118,19 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SeekPng.com_rock-on-png_3967087" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeekPng.com_rock-on-png_3967087.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noto_rock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noto_rock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="870-8704631_pixel-tree-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\870-8704631_pixel-tree-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="15e030648420016" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\15e030648420016.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="pngegg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngegg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="15e030648420016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15e030648420016.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PikPng.com_pixel-png_1744665" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PikPng.com_pixel-png_1744665.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SeekPng.com_rock-on-png_3967087" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SeekPng.com_rock-on-png_3967087.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="noto_roll-of-paper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noto_roll-of-paper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="noto-v1_scissors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noto-v1_scissors.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

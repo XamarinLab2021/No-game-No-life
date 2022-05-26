@@ -83,6 +83,36 @@ namespace NoGameNoLifeMenu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap noto_rock {
+            get {
+                object obj = ResourceManager.GetObject("noto_rock", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap noto_roll_of_paper {
+            get {
+                object obj = ResourceManager.GetObject("noto_roll-of-paper", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap noto_v1_scissors {
+            get {
+                object obj = ResourceManager.GetObject("noto-v1_scissors", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PikPng_com_pixel_png_1744665 {
             get {
                 object obj = ResourceManager.GetObject("PikPng.com_pixel-png_1744665", resourceCulture);
